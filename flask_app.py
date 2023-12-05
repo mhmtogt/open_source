@@ -4,7 +4,7 @@ import pandas as pd
 
 app = Flask(__name__)
 api = Api(app)
-
+#hocam buraya güvenlik kodu ekledim
 def authenticate(username, password):
     return username == 'admin' and password == 'password'
 
